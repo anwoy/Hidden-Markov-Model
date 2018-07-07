@@ -12,7 +12,7 @@ hmm --display <paramsfile>
 hmm --predict <paramsfile> <datafile> <outfile>
 ```
 ## datafile format
-text file with columns separated by commas. Missing data is represented as 'nan'. Multiple sequences are separated by a space
+text file with columns separated by commas. Missing data is represented as 'nan'. Multiple sequences are separated by a blank line.
 ### example
 ```
 nan  ,  0.112439838825  ,  0.711295208763  ,  -0.0342975987291 
